@@ -1,0 +1,70 @@
+
+/*
+font-family: "OpenSansRegular";
+*/
+
+
+@font-face {
+  src:
+    url("../fonts/sfprodisplay/SFProDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/sfprodisplay/SFProDisplay-Regular.woff") format("woff");
+  font-family: "SFProDisplay-Regular";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src:
+    url("../fonts/sfprodisplay/SFProDisplay-Medium.woff2") format("woff2"),
+    url("../fonts/sfprodisplay/SFProDisplay-Medium.woff") format("woff");
+  font-family: "SFProDisplay-Medium";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src:
+    url("../fonts/sfprodisplay/SFProDisplay-Semibold.woff2") format("woff2"),
+    url("../fonts/sfprodisplay/SFProDisplay-Semibold.woff") format("woff");
+  font-family: "SFProDisplay-Semibold";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src:
+    url("../fonts/sfprodisplay/SFProDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/sfprodisplay/SFProDisplay-Bold.woff") format("woff");
+  font-family: "SFProDisplay-Bold";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ 100 Extra Light or Ultra Light
+ 200 Light or Thin
+ 300 Book or Demi
+ 400 Normal or Regular
+ 500 Medium
+ 600 Semibold, Demibold
+ 700 Bold
+ 800 Black, Extra Bold or Heavy
+ 900 Extra Black, Fat, Poster or Ultra Black
+
+ 100 — тонкое начертание;
+ 200 — сверхсветлое;
+ 300 — светлое;
+ 400 — нормальное (аналогично normal);
+ 500 — среднее;
+ 600 — полужирное;
+ 700 — жирное (аналогично bold);
+ 800 — сверхжирное;
+ 900 — тяжёлое.
+ https://webfonts.pro/
+
+ @include font-face("Roboto", "../fonts/roboto/roboto-bold-italic", 700, italic, "maximum" );
+*/
